@@ -38,9 +38,9 @@ const NavBar = () => {
   <a href="#contact" className="cursor-pointer opacity-70 transation-all duration-300 hover:opacity-100"><li>Contact</li></a>
 </ul>
 <ul className="flex flex-wrap gap-5">
-  <li className="cursor-pointer text-xl opacity-70 transation-all duration-300 hover:text-gray-500 hover:opacity-100"><BsGithub/></li>
-  <li className="cursor-pointer text-xl opacity-70 transation-all duration-300 hover:text-blue-500 hover:opacity-100"><BsLinkedin/></li>
-  <li className="cursor-pointer text-xl opacity-70 transation-all duration-300 hover:text-red-500 hover:opacity-100"><MdEmail/></li>
+<a href="https://github.com/KarenEhab53"><li className="cursor-pointer text-xl opacity-70 transation-all duration-300 hover:text-gray-500 hover:opacity-100"><BsGithub/></li></a>
+<a href="https://www.linkedin.com/in/karen-ehab-23777623b/"> <li className="cursor-pointer text-xl opacity-70 transation-all duration-300 hover:text-blue-500 hover:opacity-100"><BsLinkedin/></li></a>
+<a href="mailto:karenehab53@gmail.com"> <li className="cursor-pointer text-xl opacity-70 transation-all duration-300 hover:text-red-500 hover:opacity-100"><MdEmail/></li></a>
 </ul>
 </div>
 }
