@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from '../assets/3.jpg'
+import img1 from '../assets/WhatsApp Image 2025-07-29 at 15.17.37_0c1273bb.jpg'
 import { motion } from "framer-motion";
 
 const Hero = () => {
