@@ -5,6 +5,7 @@ import img3 from "../assets/travel.jpg";
 import img4 from "../assets/handmade.jpg";
 import img5 from "../assets/graduation.png"
 import img6 from "../assets/restaurant.jpg"
+import img7 from "../assets/ecommerce.jpg"
 import { motion } from "framer-motion";
 
 const projectData = [
@@ -57,7 +58,13 @@ const projectData = [
   demo: "https://bistro-wheat.vercel.app/",
   github: "https://github.com/KarenEhab53/restaurant-bistro",
 }
-
+,{
+    image: img7, // 🆕 your uploaded ecommerce screenshot
+    title: "E-Commerce Dropshipping Platform",
+    description: "A professional landing page for a dropshipping service platform specialized in global e-commerce trading.",
+    technologies: ["React", "CSS"],
+    demo: "https://ecomerce-egy.vercel.app/",
+  }
 ];
 
 const ScrollReveal = ({ children }) => {
