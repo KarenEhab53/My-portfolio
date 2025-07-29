@@ -22,7 +22,7 @@ const Contact = () => {
           className="flex items-center gap-2 rounded-lg border border-green-600 bg-green-500 px-5 py-3 text-lg font-bold text-white shadow-lg shadow-green-700 transition-all duration-300 hover:translate-y-2 hover:shadow-xl hover:shadow-green-600"
         >
           <FaWhatsapp size={22} />
-          Message Me on WhatsApp
+          Message Me
         </a>
       </div>
     </div>
